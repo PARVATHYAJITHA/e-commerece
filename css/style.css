@@ -1,0 +1,119 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Amazon Ember', sans-serif;
+font-family: 'Amazon Ember Cd RC', sans-serif;
+font-family: 'Amazon Ember Display', sans-serif;
+font-family: 'Amazon Ember Duospace', sans-serif;
+font-family: 'Amazon Ember Mono', sans-serif;
+font-family: 'Amazon Ember V2', sans-serif;
+}
+.main:last-child {
+    margin-bottom: 0;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+}
+div {
+    display: block;
+}
+
+body{
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+}
+.main{
+    padding:14px 18px;
+}
+.text-center{
+    text-align: center;
+    margin-bottom: 18px;
+    margin:auto;
+    
+}
+.amazon-pic{
+    width:115px;
+    text-align: center;
+}
+.box{
+    
+    margin: auto;
+    position: relative;
+    top: 40px;
+    width: 400px; 
+    padding:25px 17px;
+
+ }
+ .border{
+    border: 1px ridge rgb(218, 216, 216);
+
+ }
+ .grey-brder{
+    background-color:rgb(233, 231, 231);
+    border:1px solid rgb(90, 89, 89);
+    box-shadow: rgb(58, 57, 57);
+
+ }
+ .grey-brder:hover{
+    background-color: rgb(163, 162, 162);
+ }
+ .heading{
+    font-size: 28px;
+    font-weight:100;
+    margin-bottom: 20px;
+ }
+ .bold{
+    font-weight: bold;
+    font-size: 13px;
+
+ }
+ .field{
+    text-align: center;
+    width:100%;
+    padding:4px;
+    border:1px ridge rgb(148, 147, 147);
+    margin :5px 0;
+ }
+ .yellow-brder{
+    background-color: rgba(250, 177, 19, 0.658);
+    border:1px solid rgb(255, 123, 0);
+    box-shadow: red;
+ }
+ .yellow-brder:hover{
+    background-color: rgba(255, 123, 0, 0.884);
+ }
+ .field:focus{
+    outline:1px solid red;
+ }
+ .privacy{
+    margin: 18px 0;
+    font-size: 12px;
+ }
+  a{
+    text-decoration: none;
+ }
+ .help{
+    font-size: 13px;
+ }
+ .create{
+    padding:12px;
+ }
+ .footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align:center; 
+    border-top: 1px ridge rgb(235, 232, 232);
+    margin:auto;
+ }
+ .link{
+    padding-right:20px;
+    font-size: 11px;
+ }
+ .licence{
+    font-size:10px;
+    margin: 7px;
+ }
