@@ -1,375 +1,478 @@
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    font-family: 'Amazon Ember', sans-serif;
-font-family: 'Amazon Ember Cd RC', sans-serif;
-font-family: 'Amazon Ember Display', sans-serif;
-font-family: 'Amazon Ember Duospace', sans-serif;
-font-family: 'Amazon Ember Mono', sans-serif;
-font-family: 'Amazon Ember V2', sans-serif;
+	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+	margin:0;
+      padding:0;
+      font-family: 'Amazon Ember', sans-serif;
+      font-family: 'Amazon Ember Cd RC', sans-serif;
+      font-family: 'Amazon Ember Display', sans-serif;
+      font-family: 'Amazon Ember Duospace', sans-serif;
+      font-family: 'Amazon Ember Mono', sans-serif;
+      font-family: 'Amazon Ember V2', sans-serif;
 }
 .main:last-child {
-    margin-bottom: 0;
+      margin-bottom: 0;
 }
 html {
-    -webkit-text-size-adjust: 100%;
+     -webkit-text-size-adjust: 100%;
 }
 div {
-    display: block;
+     display: block;
 }
 
 body{
-    font-size: 13px;
-    line-height: 19px;
-    color: #111;
+     font-size: 13px;
+     line-height: 19px;
+     color: #111;
 }
 .main{
-    padding:14px 18px;
+     padding:14px 18px;
 }
 .text-center{
-    text-align: center;
-    margin-bottom: 18px;
-    margin:auto;
+     text-align: center;
+     margin-bottom: 18px;
+     margin:auto;
     
 }
 .amazon-pic{
-    width:115px;
-    text-align: center;
+     width:115px;
+     text-align: center;
 }
 .box{
     
-    margin: auto;
-    position: relative;
-    top: 40px;
-    width: 400px; 
-    padding:25px 17px;
+     margin: auto;
+     position: relative;
+     top: 40px;
+     width: 400px; 
+     padding:25px 17px;
 
  }
  .border{
-    border: 1px ridge rgb(218, 216, 216);
+     border: 1px ridge rgb(218, 216, 216);
 
  }
  .grey-brder{
-    background-color:rgb(233, 231, 231);
-    border:1px solid rgb(90, 89, 89);
-    box-shadow: rgb(58, 57, 57);
+     background-color:rgb(233, 231, 231);
+     border:1px solid rgb(90, 89, 89);
+     box-shadow: rgb(58, 57, 57);
 
  }
  .grey-brder:hover{
-    background-color: rgb(163, 162, 162);
+     background-color: rgb(163, 162, 162);
  }
  .heading{
-    font-size: 28px;
-    font-weight:100;
-    margin-bottom: 20px;
+     font-size: 28px;
+     font-weight:100;
+     margin-bottom: 20px;
  }
  .bold{
-    font-weight: bold;
-    font-size: 13px;
+     font-weight: bold;
+     font-size: 13px;
 
 
  }
  .input-color{
-   border: 1px ridge rgb(216, 213, 213);
+    border: 1px ridge rgb(216, 213, 213);
 
 }
  .field{
-    text-align: center;
-    width:90%;
-    padding:4px;
-    margin :5px;
+     text-align: center;
+     width:90%;
+     padding:4px;
+     margin :5px;
  }
  .yellow-brder{
-    background-color: rgba(250, 177, 19, 0.658);
-    border:1px solid rgb(255, 123, 0);
-    box-shadow: red;
+     background-color: rgba(250, 177, 19, 0.658);
+     border:1px solid rgb(255, 123, 0);
+     box-shadow: red;
  }
  .yellow-brder:hover{
-    background-color: rgba(255, 123, 0, 0.884);
+     background-color: rgba(255, 123, 0, 0.884);
  }
  .input-color:focus{
-    outline:1px solid red;
+     outline:1px solid red;
  }
  .privacy{
-    margin: 18px 0;
-    font-size: 12px;
+     margin: 18px 0;
+     font-size: 12px;
  }
   a{
-    text-decoration: none;
+     text-decoration: none;
  }
  .help{
-    font-size: 13px;
+     font-size: 13px;
  }
  .create{
-    padding:12px;
+     padding:12px;
  }
  .footer{
-    margin-top: 20px;
-    padding-top: 20px;
-    text-align:center; 
-    border-top: 1px ridge rgb(235, 232, 232);
-    margin:auto;
+     margin-top: 20px;
+     padding-top: 20px;
+     text-align:center; 
+     border-top: 1px ridge rgb(235, 232, 232);
+     margin:auto;
  }
  .link{
-    padding-right:20px;
-    font-size: 11px;
+     padding-right:20px;
+     font-size: 11px;
  }
  .licence{
-    font-size:10px;
-    margin: 7px;
+     font-size:10px;
+     margin: 7px;
  }
  .dropbtn {
-   background-color: rgb(238, 234, 234);
-   font-size: 13px;
-   border: 1px ridge grey;
-   cursor: pointer;
-   padding: 4px;
+     background-color: rgb(238, 234, 234);
+     font-size: 13px;
+     border: 1px ridge grey;
+     cursor: pointer;
+     padding: 4px;
  }
  
  .dropdown {
-   text-align: left;
-   position: relative;
-   left:0;
-   display: inline-block;
+     text-align: left;
+     position: relative;
+     left:0;
+     display: inline-block;
  }
  
  .dropdown-content {
-   display: none;
-   position: absolute;
-   background-color: #f9f9f9;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
  }
  
  .dropdown-content a {
-   color: black;
-   text-decoration: none;
-   display: block;
+     color: black;
+     text-decoration: none;
+     display: block;
  }
  
  .dropdown-content a:hover {background-color: #f1f1f1}
  
  .dropdown:hover .dropdown-content {
-   display: block;
+     display: block;
  }
  .mobile-section{
-   display: flex;
+     display: flex;
  }
  .no{
-   margin-left: 10px;
-   width:270px;
-   padding: 4px;
+     margin-left: 10px;
+     width:270px;
+     padding: 4px;
  }
  .icon{
-   width:9%;
+     width:9%;
  }
  .header-nav{
-   background-color: #111;
-   color:white;
-   display: flex;
-   position:fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   width: 100%;
+      background-color: #111;
+      color:white;
+      display: flex;
+      position:fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+	z-index:3;
  }
  .logo{
-   margin:4px;
-   float:left;
-   height: 50px;
+     margin:4px;
+     float:left;
+     height: 50px;
   
  }
  
  .logo-img{
-   margin:5px;
-   width:100px;
+     margin:5px;
+     width:100px;
  }
  .loc-white{
-   width:10px;
-   float:left;
+     width:10px;
+     float:left;
  }
  .loc-details{
-   margin:10px;
-   padding:6px 6px 0 6px;
-   float:left;
-   width:20%;
-   height: 50px;
+     margin:10px;
+     padding:6px 6px 0 6px;
+     float:left;
+     width:20%;
+     height: 50px;
 
  }
  .black-border{
-   border:1px ridge black;
+     border:1px ridge black;
 
  }
  .black-border:hover{
-   border:1px ridge white;
+     border:1px ridge white;
 
  }
  .grey-text{
-   color:rgb(212, 206, 206);
-   font-size: 10px;
+     color:rgb(212, 206, 206);
+     font-size: 10px;
  }
  .loc{
-   font-weight: bold;
-   font-size: 12px;
+     font-weight: bold;
+     font-size: 12px;
  }
  .search-area{
-   margin-top:10px;
-   width:60%;
-   float:left;
-   position:relative;
+     margin-top:10px;
+     width:60%;
+     float:left;
+     position:relative;
  }
  .search{
-   width:100%;
-   padding: 7px;
-   position: absolute;
+     width:100%;
+     padding: 7px;
+     position: absolute;
  }
  .search-button{
-  width:100%;
-  float:left;
-  position: absolute;
+    width:100%;
+    float:left;
+    position: absolute;
  }
  
  .all{
-   padding:12px 8px 5px 8px;
-   border:none;
-   position:relative;
-   left:0;
-   border-bottom-left-radius: 10px;
-   border-top-left-radius: 10px;
+     padding:12px 8px 5px 8px;
+     border:none;
+     position:relative;
+     left:0;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
  }
  .arrow{
-   width:10px;
+     width:10px;
  }
  .right-icon{
-  position:absolute;
-  right:0;
+    position:absolute;
+    right:0;
  }
  .search-icon{
-  position:relative;
-  top:1.1px;
-  padding: 10px 14px;
-  background-color: rgb(255, 187, 0);
-  border: none;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  height:42px;
-  margin-top: 8px;
+    position:relative;
+    top:1.1px;
+    padding: 10px 14px;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height:42px;
+    margin-top: 8px;
   
  }
  .search-icon-img{
-  width:17px;
+    width:17px;
 
  }
  .country{
-  margin:18px 10px 13px 10px;
-  padding:7px 10px 1px 10px;
-  display:flex;
-  height:20px;
-  position: relative;
+    margin:18px 10px 13px 10px;
+    padding:7px 10px 1px 10px;
+    display:flex;
+    height:20px;
+    position: relative;
  }
  .india{
-  width:25px;
+    width:25px;
 
  }
  .india-arrow{
-  width:17px;
-  float:right;
-  height:20px;
+    width:17px;
+    float:right;
+    height:20px;
  }
  .account-list{
-  margin: 4px 10px;
-  padding:3px;
-  float:left;
-  height: 60px;
+    margin: 4px 10px;
+    padding:3px;
+    float:left;
+    height: 60px;
  }
  .greet{
-  font-size: 10px;
-  color:rgb(231, 229, 229);
+    font-size: 10px;
+    color:rgb(231, 229, 229);
  }
  .account{
-  font-weight: bold;
-  display: flex;
-  height: 60px;
+    font-weight: bold;
+    display: flex;
+    height: 60px;
  }
  .cart{
-  width:50px;
-  margin-top: 3px;
-  padding-left: 2%;
-  height: 50px;
+    width:50px;
+    margin-top: 3px;
+    padding-left: 2%;
+    height: 50px;
  }
 .cart-div{
-  float:right;
-  margin-left: 4%;
-  height: 60px;
+    float:right;
+    margin-left: 4%;
+    height: 60px;
 }
 .body-container{
-  position: relative;
-  top:65px;
-  background-color: rgb(49, 48, 48);
+     position: relative;
+    top:65px;
+    background-color: rgb(49, 48, 48);
 }
 .nav{
-  background-color: rgb(53, 52, 52);
-  width:100%;
-  color:white;
-  font-size: 14px;
+      background-color: rgb(53, 52, 52);
+      width:100%;
+      color:white;
+      font-size: 14px;
+	z-index:2;
 }
 .left-part{
-  float:left;
-  background-color: rgb(58, 57, 57);
+    float:left;
+    background-color: rgb(58, 57, 57);
 }
 
 .clear{
-  clear:both;
+    clear:both;
 }
 .right-part{
-  float:right;
-  font-size: 17px;
-  margin:6px;
+    float:right;
+    font-size: 17px;
+    margin:6px;
 }
 .menu{
-  display: flex;
-  margin:0;
+    display: flex;
+    margin:0;
 }
 .menu-img{
-  width:40px;
-  vertical-align: middle;
-  margin-top:3px;
+    width:40px;
+    vertical-align: middle;
+    margin-top:3px;
 }
 .menu-all{
-  vertical-align: top;
-  padding-right: 10px;
+    vertical-align: top;
+    padding-right: 10px;
  
 }
 .grey-box{
-  border : 1px ridge  rgb(53, 52, 52);
+    border : 1px ridge  rgb(53, 52, 52);
 
 }
 .grey-box:hover{
-  border : 1px ridge  white;
+    border : 1px ridge  white;
 }
 .fresh{
-  padding: 10px 7px 3px 7px;
-  margin-bottom: 2px;
+    padding: 10px 7px 3px 7px;
+    margin-bottom: 2px;
 }
 .home{
-  background-color: rgb(14, 233, 112);
-  overflow-x: hidden;
+    background-image: linear-gradient(#05a217, #eaeded);
+    overflow-x: hidden;
 }
 .amazon-app{
-  width:30px;
+     width:30px;
 }
 .right-part a{
-  color:white;
-  text-decoration: none;
+    color:white;
+    text-decoration: none;
 }
 .main-plan{
-  margin-top:60px;
-  max-width: 97;
+    margin-top:60px;
+    max-width: 97;
 }
 .product{
-  float:left
+	margin:15px;
+	background-color: white;
+	float:left;
+
+	
+}
+.pro1-img1{
+    width:125px;
+    float: left;
+}
+.product1{
+   	display:flex;
+	margin:10px;
+	
+}
+.product2{
+	margin:10px;
+	padding:20px 10px;
+    	background-color: white;
+	float:left;
+
+}
+.product-div{
+	margin:10px;
+}
+.fest-img{
+	width:250px;
+	height:280px;
+}
+.fest-head{
+	padding:4px;
+}
+.fest{
+	padding:23px;
+}
+.ranga-img{
+	width:250px;
+	height:280px;
+}
+.ranga-head{
+	padding:4px;
+}
+.ranga{
+	padding:12px;
+}
+.study{
+	width:100px;
+}
+.study-a{
+	margin-top:10px;
+}
+
+.video-div{
+	position:relative;
+	color:white;
+}
+
+.video-head{
+	position:absolute;
+	top:5px;
+	padding:5px;
+	
+}
+.runway{
+	padding:10px;
+}
+.watch-link{
+	bottom:10px;
+	position:absolute;
+	padding:10px;
+}
+
+.video-img{
+	width:600px;
+}
+.category img{
+	width:150px;
+}
+
+.product-sect{
+	display:flex;
+	padding: 20px 10px 30px 10px;
+	background-color:white;
+}
+.product-sec{
+	margin-top:10px ;
+}
+.product-details{
+	display:flex;
+	color:#CC0C39;
+	font-weight:bold;
+}
+.product-details button{
+	background-color:#CC0C39;
+	margin-right:5px;
+	border:none;
+	padding:3px;
+}
+.item-container{
+	background-color:white;
+	margin:10px 15px 10px 15px;
+	padding:12px;
 }
