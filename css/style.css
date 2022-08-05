@@ -312,6 +312,11 @@ body{
     top:65px;
     background-color: rgb(49, 48, 48);
 }
+.sections{
+	display:flex;
+	flex-wrap: wrap;
+	align-items:stretch;
+}
 .nav{
       background-color: rgb(53, 52, 52);
       width:100%;
@@ -375,22 +380,22 @@ body{
 .product{
 	margin:15px;
 	background-color: white;
-	float:left;
-
-	
+	float:left;	
 }
 .pro1-img1{
-    width:125px;
-    float: left;
+    	width:125px;
+    	float: left;
+	margin: 0 30px;
+	
 }
 .product1{
    	display:flex;
 	margin:10px;
-	
+	padding-top:8px;	
 }
 .product2{
 	margin:10px;
-	padding:20px 10px;
+	padding:10px 10px;
     	background-color: white;
 	float:left;
 
@@ -399,24 +404,19 @@ body{
 	margin:10px;
 }
 .fest-img{
-	width:250px;
+	width:300px;
 	height:280px;
 }
 .fest-head{
 	padding:4px;
 }
-.fest{
-	padding:23px;
-}
 .ranga-img{
-	width:250px;
-	height:280px;
+	width:370px;
 }
 .ranga-head{
 	padding:4px;
 }
 .ranga{
-	padding:12px;
 }
 .study{
 	width:100px;
@@ -428,6 +428,7 @@ body{
 .video-div{
 	position:relative;
 	color:white;
+	background-color:black;
 }
 
 .video-head{
@@ -437,7 +438,7 @@ body{
 	
 }
 .runway{
-	padding:10px;
+	padding:2px;
 }
 .watch-link{
 	bottom:10px;
@@ -446,19 +447,30 @@ body{
 }
 
 .video-img{
-	width:600px;
+	width:500px;
+	height:150%;
 }
 .category img{
-	width:150px;
+	width:180px;
 }
 
 .product-sect{
 	display:flex;
-	padding: 20px 10px 30px 10px;
+	padding: 20px 10px 0px 10px;
 	background-color:white;
 }
 .product-sec{
 	margin-top:10px ;
+	padding:2px;
+}
+.product-sec2{
+	margin-top:10px ;
+}
+.product-sec2{
+	padding:8px;
+}
+.product-sec img{
+	padding:20px;
 }
 .product-details{
 	display:flex;
@@ -475,4 +487,45 @@ body{
 	background-color:white;
 	margin:10px 15px 10px 15px;
 	padding:12px;
+}
+
+.prdct-head{
+	font-size:20px;
+	font-weight:bold;
+
+}
+.pro1-img2{
+	margin:2px;
+	width:125px;
+}
+.brand-img{
+	width:260px;
+}
+
+.sub{
+	background-color:white;
+	margin:30px;
+	display:flex;
+}
+.sub2{
+	
+	margin:30px;
+	display:flex;
+	background-color:grey;
+}
+.footer{
+	background-color:black;
+	color:white;
+	text-align:left;
+
+}
+.footer-content{
+	display:flex;
+}
+.footer-empty{
+	width:10%;
+}
+.footer-header{
+	font-size:18px;
+	font-weight:bold;
 }
