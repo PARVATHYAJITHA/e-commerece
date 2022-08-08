@@ -43,7 +43,6 @@ body{
     
      margin: auto;
      position: relative;
-     top: 40px;
      width: 400px; 
      padding:25px 17px;
 
@@ -107,11 +106,10 @@ body{
      padding:12px;
  }
  .footer{
-     margin-top: 20px;
-     padding-top: 20px;
+	margin-top:10px;
+	justify-contents:center;
      text-align:center; 
      border-top: 1px ridge rgb(235, 232, 232);
-     margin:auto;
  }
  .link{
      padding-right:20px;
